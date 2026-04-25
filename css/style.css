@@ -343,6 +343,22 @@ body {
   box-shadow: var(--shadow-card);
 }
 
+/* ---- Facebook Feed Section ---- */
+.feed-section {
+  background: var(--color-cream);
+}
+
+.facebook-feed {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook-feed iframe {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  max-width: 100%;
+}
+
 /* ---- Hours Section ---- */
 .hours-section {
   background: var(--color-brown-dark);
