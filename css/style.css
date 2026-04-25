@@ -287,8 +287,6 @@ body {
 }
 
 .menu-list li {
-  display: flex;
-  justify-content: space-between;
   padding: 8px 0;
   border-bottom: 1px dotted var(--color-gold-light);
   font-size: 0.95rem;
@@ -296,11 +294,6 @@ body {
 
 .menu-list li:last-child {
   border-bottom: none;
-}
-
-.menu-list li span:last-child {
-  font-weight: 700;
-  color: var(--color-brown);
 }
 
 .menu-note {
