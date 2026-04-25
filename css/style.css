@@ -84,6 +84,7 @@ body {
 .nav-logo-img {
   height: 50px;
   width: auto;
+  filter: brightness(0) invert(1);
   transition: height 0.3s ease;
 }
 
@@ -187,6 +188,7 @@ body {
   width: 80%;
   height: auto;
   margin-bottom: 24px;
+  filter: brightness(0) invert(1);
 }
 
 .hero h1 {
