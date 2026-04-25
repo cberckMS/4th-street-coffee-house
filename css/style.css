@@ -336,23 +336,11 @@ body {
   font-size: 1.05rem;
 }
 
-.about-placeholder {
-  background: var(--color-warm-white);
+.about-photo {
+  width: 100%;
   border-radius: var(--radius);
-  padding: 80px 40px;
-  text-align: center;
-  border: 3px dashed var(--color-gold-light);
-  color: var(--color-brown-muted);
-}
-
-.about-placeholder span {
-  font-size: 4rem;
-  display: block;
-  margin-bottom: 12px;
-}
-
-.about-placeholder p {
-  font-style: italic;
+  object-fit: cover;
+  box-shadow: var(--shadow-card);
 }
 
 /* ---- Hours Section ---- */
