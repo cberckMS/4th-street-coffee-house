@@ -359,6 +359,13 @@ body {
   max-width: 100%;
 }
 
+@media (max-width: 768px) {
+  .facebook-feed iframe {
+    width: 340px;
+    height: 500px;
+  }
+}
+
 /* ---- Hours Section ---- */
 .hours-section {
   background: var(--color-brown-dark);
