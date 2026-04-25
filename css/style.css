@@ -84,7 +84,6 @@ body {
 .nav-logo-img {
   height: 50px;
   width: auto;
-  mix-blend-mode: multiply;
   transition: height 0.3s ease;
 }
 
@@ -188,7 +187,6 @@ body {
   width: 80%;
   height: auto;
   margin-bottom: 24px;
-  mix-blend-mode: multiply;
 }
 
 .hero h1 {
