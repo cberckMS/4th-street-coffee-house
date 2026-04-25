@@ -79,9 +79,6 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 4px 12px;
-  border-radius: 8px;
 }
 
 .nav-logo-img {
@@ -168,7 +165,7 @@ body {
   justify-content: center;
   text-align: center;
   background:
-    linear-gradient(135deg, rgba(62, 39, 35, 0.85), rgba(93, 64, 55, 0.7)),
+    linear-gradient(135deg, rgba(62, 39, 35, 0.4), rgba(93, 64, 55, 0.3)),
     url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80') center/cover no-repeat;
   color: var(--color-cream);
 }
@@ -176,7 +173,7 @@ body {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at center, transparent 0%, rgba(30, 15, 10, 0.4) 100%);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .hero-content {
@@ -190,9 +187,6 @@ body {
   width: 80%;
   height: auto;
   margin-bottom: 24px;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 20px;
-  border-radius: 16px;
 }
 
 .hero h1 {
