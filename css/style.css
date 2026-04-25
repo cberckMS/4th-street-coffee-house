@@ -79,6 +79,9 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 12px;
+  border-radius: 8px;
 }
 
 .nav-logo-img {
@@ -187,6 +190,9 @@ body {
   width: 80%;
   height: auto;
   margin-bottom: 24px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 16px;
 }
 
 .hero h1 {
